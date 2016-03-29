@@ -1,0 +1,7 @@
+.rs-selectbox select[multiple] {
+	resize: both;
+	width: 100%;
+}
+.rs-selectbox-multiple.rs-postlist {
+	max-height: inherit
+}

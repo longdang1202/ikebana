@@ -1,0 +1,92 @@
+{
+	"home-1": {
+		"name": "Home 1 - Electronics stores",
+		"des": "",
+		"path": "home-1",
+		"type": [""]
+	},
+	"home-2": {
+		"name": "Home 2 - Fashion stores",
+		"des": "",
+		"path": "home-2",
+		"type": [""]
+	},
+	"home-3": {
+		"name": "Home 3 - Furniture Stores",
+		"des": "",
+		"path": "home-3",
+		"type": [""]
+	},
+	"home-4": {
+		"name": "Home 4 - Kitchen Stores",
+		"des": "",
+		"path": "home-4",
+		"type": [""]
+	},
+	"home-5": {
+		"name": "Home 5 - Kids Stores",
+		"des": "",
+		"path": "home-5",
+		"type": [""]
+	},
+	"home-6": {
+		"name": "Home 6 - Furniture Store 2",
+		"des": "",
+		"path": "home-6",
+		"type": [""]
+	},
+	"home-7": {
+		"name": "Home 7 - Underwear Stores",
+		"des": "",
+		"path": "home-7",
+		"type": [""]
+	},
+	"home-8": {
+		"name": "Home 8 - Beauty Stores",
+		"des": "",
+		"path": "home-8",
+		"type": [""]
+	},
+	"home-9": {
+		"name": "Home 9 - Landing Page",
+		"des": "",
+		"path": "home-9",
+		"type": [""]
+	},
+	"home-10": {
+		"name": "Home 10 - Handmade Stores",
+		"des": "",
+		"path": "home-10",
+		"type": [""]
+	},
+	"home-11": {
+		"name": "Home 11 - Books Stores",
+		"des": "",
+		"path": "home-11",
+		"type": [""]
+	},
+	"home-12": {
+		"name": "Home 12 - Outdoor Stores",
+		"des": "",
+		"path": "home-12",
+		"type": [""]
+	},
+	"home-13": {
+		"name": "Home 13 - Car Stores",
+		"des": "",
+		"path": "home-13",
+		"type": [""]
+	},
+	"home-14": {
+		"name": "Home 14 - Cosmetic Stores",
+		"des": "",
+		"path": "home-14",
+		"type": [""]
+	},
+	"home-15": {
+		"name": "Home 15 - Barber Stores",
+		"des": "",
+		"path": "home-15",
+		"type": [""]
+	}
+}

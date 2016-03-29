@@ -1,0 +1,8 @@
+<div class="rst-share">
+	<a target="_blank" href="http://twitter.com/share?text=<?php echo str_replace(" ", "+", get_the_excerpt() ) ?>&amp;url=<?php the_permalink() ?>" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a>
+	<a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;url=<?php the_permalink() ?>&amp;title=<?php echo str_replace(" ", "&nbsp;", get_the_title() ) ?>&amp;summary=<?php echo str_replace(" ", "+", get_the_excerpt() ) ?>" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a>
+	<a target="_blank" href="https://plus.google.com/share?url=<?php the_permalink() ?>" class="rst-icon-google-plus"><i class="fa fa-google-plus"></i></a>
+	<a target="_blank" class="rst-icon-pinterest" href="https://pinterest.com/pin/create/button/?url=<?php the_permalink() ?>&media=<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)) ?>&description=<?php echo str_replace(" ", "+", get_the_excerpt() ) ?>"><i class="fa fa-pinterest"></i></a>
+	<a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink() ?>&amp;title=<?php echo str_replace(" ", "&nbsp;", get_the_title() ) ?>&amp;source=LinkedIn" class="rst-icon-linkedin"><i class="fa fa-linkedin"></i></a>
+	<a target="_blank" class="rst-icon-tumblr" href="http://www.tumblr.com/share/link?url=<?php the_permalink() ?>&amp;name=<?php echo str_replace(" ", "&nbsp;", get_the_title() ) ?>"><i class="fa fa-tumblr"></i></a>
+</div>

@@ -1,0 +1,105 @@
+.rs-panel-wrap {
+	background:#338a79;
+	padding-top:10px;
+	margin-top:50px;
+}
+.rs-header-new {
+	background:#fff;
+	padding:15px 50px;
+}
+.version-cpanel {
+	text-transform:uppercase;
+	color:#338a79;
+	font-size:10px;
+	float:right;
+}
+.rs-avatar,.rs-breadcrumb {
+	display:none;
+}
+.rs-menu > ul > li:hover, .rs-menu > ul > li.active {
+	background:#fff !Important;
+}
+.rs-menu > ul > li:hover a, .rs-menu > ul > li.active a {
+	color:#4b4b4b;
+}
+.rs-menu > ul > li.active > a:after {
+	border:none !Important;
+}
+.rs-menu ul {
+	background:#2e8070;
+}
+.rs-menu ul li {
+	border-bottom:1px solid #2c7b6c;
+}
+.rs-menu ul li:last-child,.rs-menu ul li.active {
+	border-bottom:none;
+}
+.rs-sidebar {
+	background:#338a79 !Important;
+	width:250px !Important;
+}
+.rs-content-main {
+	margin-left:260px !important;
+}	
+.rs-form,.rs-form-action {
+	border:none !important;
+}	
+.rs-panel a, .rs-panel .rs-button {
+	font-family: 'muli' !important;
+	text-transform:uppercase;
+	font-size:12px !Important;
+	font-weight:normal !Important;
+}
+.rs-content {
+	background:#ffffff;
+}
+.rs-panel {
+	border:none;
+	padding:14px;
+	background:#338a79;
+	margin-top:0;
+}
+.rs-field {
+	border:none;
+	background:#f6f6f6;
+	margin:15px 10px;
+}
+.rs-button-primary,.rs-upload .rs-button {
+	background:#338a79;
+	border-radius:0;
+	border:none;
+	box-shadow: 0 0 0 1px #338a79,0 0 0 1px #338a79,0 0 0 1px #338a79,0 2px 0 1px #2a7768;
+}
+.rs-upload .rs-button {
+	box-shadow:none;
+	color:#fff !Important;
+	text-shadow:none !Important;
+}
+.rs-menu ul li i.rs-icon {
+	margin-right:23px;
+}
+
+.rs-switch-trigger{
+	background-image:url("images/btn.png");
+}
+.rs-switch-default .rs-switch-trigger.on{
+	background-position:right top;
+}
+.rs-switch-default .rs-switch-trigger.off{
+	background-position:right bottom;
+}
+.rs-switch-on-off .rs-switch-trigger.on{
+	background-position:left top;	
+}
+.rs-switch-on-off .rs-switch-trigger.off{
+	background-position:left bottom;
+}
+.rs-switch-yes-no .rs-switch-trigger.on{
+	background-position:-52px top;
+}
+.rs-switch-yes-no .rs-switch-trigger.off{
+	background-position:-52px bottom;
+}
+.rs-switch-trigger {
+    background-image: url("images/btn.png");
+}
