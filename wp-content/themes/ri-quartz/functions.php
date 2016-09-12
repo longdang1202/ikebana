@@ -139,7 +139,7 @@ if(!function_exists('ri_quartz_theme_scripts')){
         wp_enqueue_style('veno-css', get_template_directory_uri() . '/assets/venobox/venobox.css');
         wp_enqueue_style('animate-css', get_template_directory_uri() . '/css/animate.css');
         if(class_exists('WooCommerce')){
-            wp_enqueue_style('flickity-css', 'https://npmcdn.com/flickity@1.2/dist/flickity.min.css');
+            wp_enqueue_style('flickity-css', 'https://unpkg.com/flickity@1.2/dist/flickity.min.css');
             wp_enqueue_style('magnific-css', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css');
         }
         if(get_theme_mod('rit_body_font_select', 'google') == 'google' || get_theme_mod('rit_heading_font_select', 'google') == 'google' || get_theme_mod('rit_heading_font_select', 'google') == 'google'){
@@ -212,7 +212,7 @@ if(!function_exists('ri_quartz_theme_scripts')){
         wp_enqueue_script('particles', get_template_directory_uri() . '/js/particles.js', array(), '1.0.3', true);
         wp_enqueue_script('countdown', get_template_directory_uri() . '/js/jquery.countdown.min.js', array(), '2.1.0', true);
         if(class_exists('WooCommerce')){
-            wp_enqueue_script('flickity', 'https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js', array(), '1.2', true);
+            wp_enqueue_script('flickity', 'https://unpkg.com/flickity@1.2/dist/flickity.pkgd.min.js', array(), '1.2', true);
             wp_enqueue_script('magnific', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js', array(), '1.1.0', true);
             wp_enqueue_script('zoom', get_template_directory_uri() . '/js/jquery.zoom.min.js', array(), '2.1.0', true);
         }
